@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 	if (input<0) {
 		int input2=input * (-1);
 		printf("Square Root of %d is %fi\n", input, sqrt(input2));
-		printf("End of program. Exiting\n");
+		printf("Exiting program\n");
 		return 0;
 	}
 	printf("Square Root of %d is %f\n",input,sqrt(input));
